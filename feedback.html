@@ -1,0 +1,99 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>https/www.corroboree.com</title>
+<script type = "text/javascript">
+         <!--
+            function success_message() {
+               alert ("Thank You For Your Feedback.It means alot!");
+               document.write ("Your Feedback is successfully saved.");
+            }
+         //-->
+      </script>
+<style>
+.btn {
+  background-color: white;
+  border: none;
+  color: #DAA520;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body bgcolor="#DAA520">
+<center>
+<div style="background-color:white">
+    <img src="C:\Users\Shivani\Downloads\imageedit_1_2448612276.png" width="80" height="80"></center>
+<h1 style= "color:white"><center>CORROBOREE</center></h1>
+<div class="imagebg"></div>
+<div class="row " style="margin-top: 50px">
+    <div class="col-md-6 col-md-offset-3 form-container">
+       <center><h2 style="color:white">Feedback</h2></center>
+       <center> <p style="color: white">
+            Please provide your feedback below:
+        </p></center>
+       <center> <form role="form" method="post" id="reused_form">
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                <label style="color: white">How do you rate your overall experience?</label>
+                <p>
+                    <label class="radio-inline" style="color: white">
+                    <input type="radio" name="experience" id="radio_experience" value="bad" >
+                    Bad
+                    </label>
+
+                    <label class="radio-inline" style="color: white">
+                    <input type="radio" name="experience" id="radio_experience" value="average" style="color: white" >
+                    Average
+                    </label>
+
+                    <label class="radio-inline" style="color: white">
+                    <input type="radio" name="experience" id="radio_experience" value="good" style="color: white" >
+                    Good
+                    </label>
+                </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <label for="comments" style="color: white">
+                        Comments:</label>
+                    <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <label for="name" style="color: white">
+                        Your Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="email" style="color: white">
+                        Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+            </div>
+
+                        <div class="row">
+                <div class="col-sm-12 form-group">
+                    <button type="submit" onclick="success_message();" class="btn" >Post </button>
+                </div>
+            </div>
+
+        </form></center>
+        <div id="success_message" style="width:100%; height:100%; display:none; ">
+            <h3 style="color: white">Posted your feedback successfully!</h3>
+        </div>
+        <div id="error_message"
+                style="width:100%; height:100%; display:none; ">
+                    <h3>Error</h3>
+                    Sorry there was an error sending your form.
+
+        </div>
+    </div>
+</div>
